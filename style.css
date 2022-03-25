@@ -55,3 +55,9 @@ body {
 .git-areas-item-remote-repository {
   background-color: cadetblue;
 }
+
+.code {
+  background-color: black;
+  font-size: small;
+  font-family: 'Cutive Mono', Consolas, 'Courier New', Courier, monospace;
+}

@@ -42,5 +42,23 @@
         </div>
       </li>
     </ul>
+    <div>
+      <h2>Creating new repository in command line</h2>
+      <div class="code">echo "# git-learning" >> README.md</div>
+      <div class="code">git init</div>
+      <div class="code">git add README.md</div>
+      <div class="code">git commit -m "first commit"</div>
+      <div class="code">git branch -M main</div>
+      <div class="code">
+        git remote add origin git@github.com:zrebec/git-learning.git
+      </div>
+      <div class="code">git push -u origin main</div>
+      <h2>Push existing project from local repository to remote repository</h2>
+      <div class="code">
+        git remote add origin git@github.com:zrebec/git-learning.git
+      </div>
+      <div class="code">git branch -M main</div>
+      <div class="code">git push -u origin main</div>
+    </div>
   </body>
 </html>
