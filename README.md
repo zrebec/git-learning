@@ -10,12 +10,12 @@
 
 ## Popis priestorov v git
 
-| Working directory                     | Staging area                          | Local repository                      | Remote repository |
-| ------------------------------------- | ------------------------------------- | ------------------------------------- | ----------------- |
-| git init                              |                                       |                                       |                   |
-| git add ---------- files -----------> |                                       |                                       |                   |
-|                                       | git commit -------- files ----------> |                                       |                   |
-|                                       |                                       | git push --------- files -----------> |                   |
+| Working directory    | Staging area            | Local repository      | Remote repository |
+| -------------------- | ----------------------- | --------------------- | ----------------- |
+| git init             |                         |                       |                   |
+| git add _files_ ---> |                         |                       |                   |
+|                      | git commit _files_ ---> |                       |                   |
+|                      |                         | git push _files_ ---> |                   |
 
 ### Working directory
 
