@@ -4,9 +4,48 @@
 
 ### Windows
 
+Nainštalovať git pre Windows si môžete [tu](https://gitforwindows.org/).
+
 ### Mac
 
+V novších verziách už obsahuje macOS v sebe git. Overiť si môžete pomocou
+
+```git
+git --version
+```
+
+V prípade, že nevidíte žiadnu verziu, nainštalovať si git do macOS je možné pomocou **Homebrew**
+
+Ak Homebrew nemáte nainštalovaný, môžete ho nainštalovať nasledovne
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+V prípade, že by link nefungoval (mohol sa časom zmeniť), oficiálnu príručku nájdete na stránke [Homebrew](https://brew.sh/)
+
+Následne je inštalácia jednoduchá pomocou príkazu `brew`
+
+```
+brew install git
+```
+
+Overenie úspešnosti procesu je možné opätovným zadaním `git --version`
+
 ### Linux
+
+Veľmi veľká väčšina distribúcii už obsahuje v git. Je väčšinou súčasťou **bash**. Preto je najlepšie si overiť či je git dostupný už spomínaným príkazom
+
+```bash
+git --version
+```
+
+## Konfigurácia
+
+```bash
+git config --global user.name "Užívateľské meno pre git"
+git config --global user.email "email používaný pre git"
+```
 
 ## Popis priestorov v git
 
@@ -24,13 +63,6 @@
 ### Local repository
 
 ### Remote repository
-
-## Konfigurácia
-
-```bash
-git config --global user.name "Užívateľské meno pre git"
-git config --global user.email "email používaný pre git"
-```
 
 ## Inicializácia projektu
 
