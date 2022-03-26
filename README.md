@@ -151,11 +151,17 @@ V prípade, že projekt vetvíme a chceme k tomu aj graf, ktorý je schopný vyg
 git log --graph --decorate --abbrev-commit --all
 ```
 
+Výstup by mohol vyzerať nasledovne
+
+![Obrázok príkladu výstupu s vetvením programu](/images/git-log-prettier.png 'Obrázok príkladu výstupu s vetvením programu')
+
 V prípade, že chceme vypísať commity na jeden riadok, môžeme si výstup naformátovať pomocou
 
 ```bash
 git log --pretty=oneline
 ```
+
+![Obrázok príkladu s výstupom commitov na jeden riadok](/images/git-log-oneline.png 'Obrázok príkladu s výstupom commitov na jeden riadok')
 
 Zmeny oproti lokálnej verzii v porovnaní s git môžeme vypísať pomocou  
 _Červená (znak "-") značí riadok ktorý zmizol v lokálnej verzii a zelená (znak "+") znamená pridanie._
