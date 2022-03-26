@@ -14,15 +14,13 @@ V novších verziách už obsahuje macOS v sebe git. Overiť si môžete pomocou
 git --version
 ```
 
-V prípade, že nevidíte žiadnu verziu, nainštalovať si git do macOS je možné pomocou **Homebrew**
-
-Ak Homebrew nemáte nainštalovaný, môžete ho nainštalovať nasledovne
+V prípade, že nevidíte žiadnu verziu, nainštalovať si git do macOS je možné pomocou **Homebrew** _(Preskočte nasledujúci krok v prípade, že máte už **Homebrew** nainštalovaný na svojom macOS)_
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-V prípade, že by link nefungoval (mohol sa časom zmeniť), oficiálnu príručku nájdete na stránke [Homebrew](https://brew.sh/)
+> V prípade, že by link nefungoval (mohol sa časom zmeniť), oficiálnu príručku nájdete na stránke [Homebrew](https://brew.sh/)
 
 Následne je inštalácia jednoduchá pomocou príkazu `brew`
 
