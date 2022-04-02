@@ -48,59 +48,59 @@ There are many ways to deploy to a hosting platform. GIT, SSH, FTP/SFTP
 
 ## Basic FE
 - Create website layouts with HTML/CSS
-* Understand some of basic design principles 
-* Know JS and how to work with the DOM
-* Connect to API & make requests via Fetch
-* Work with the GIT and use version control
-* Deploy and manage small PROD projects
+- Understand some of basic design principles 
+- Know JS and how to work with the DOM
+- Connect to API & make requests via Fetch
+- Work with the GIT and use version control
+- Deploy and manage small PROD projects
 
 ## Choosing your path 
 ### Web Design
 - Learn More Design
-* Get Better at CSS
-* Simple Websites
+- Get Better at CSS
+- Simple Websites
 ### Frontend Framework 
 - React, Vue, Svelte 
-* State Managers
-* Server-side Rendering 
+- State Managers
+- Server-side Rendering 
 ### Backend
 - Node.js, Python, PHP, C#, Go
-* Databases (Postgres, MongoDB)
-* HTTP & API Development
+- Databases (Postgres, MongoDB)
+- HTTP & API Development
 ### Advanced JS
 - Module Bundlers
-* Testing
-* Design Patterns
+- Testing
+- Design Patterns
 
 ## Frontend Frameworks 
 Most used for SPA (Single Page Apps)
 ### [React](https://reactjs.org/)
 - Created & Maintained by Facebook 
-* Most popular Framework / Library 
-* Moderate learning curve
+- Most popular Framework / Library 
+- Moderate learning curve
 React Router, JSX, Hooks, Context API, Redux
 ### [Vue](https://vuejs.org/)
 - Second most popular Framework 
-* Great community 
-* Low learning curve
+- Great community 
+- Low learning curve
 Vue CLI, Vue Router, Composition API, Vuex 
 ### [Angular](https://angular.io/)
 - Created & Maintained by Google
-* Popular in enterprise 
-* Steep learning curve 
+- Popular in enterprise 
+- Steep learning curve 
 Angular CLI, Services, TS, Observables
 ### [Svelte](https://svelte.dev/)
 - Gaining popularity 
-* Lightweight & Performant Compiler
-* Lowest learning curve 
+- Lightweight & Performant Compiler
+- Lowest learning curve 
 SvelteKit, Stores
 
 ## [Typescript](https://www.typescriptlang.org/) 
 - Static-Type checking
-* Class & Module Support 
-* Other ES6+ Features 
-* Code less prone to errors 
-* Code is more robust and definitive
+- Class & Module Support 
+- Other ES6+ Features 
+- Code less prone to errors 
+- Code is more robust and definitive
 
 ## UI Kits
 Reusable design elements / components 
@@ -129,19 +129,19 @@ Other languages have testing tools as well
 Unlike with SPA, React/Vue/Svelte apps render on the server-side
 ### [Next.js](https://nextjs.org/)
 - React based
-* Data Fetching Methods 
-* Image optimization, SEO, etc...
+- Data Fetching Methods 
+- Image optimization, SEO, etc...
 ### [Nuxt.js](https://nuxtjs.org/)
 - Vue based
-* Data fetching 
-* Automatic transpilation & Building
+- Data fetching 
+- Automatic transpilation & Building
 ### [Remix](https://remix.run/)
 - React Based
-* Loaders & Actions
-* Most control over HTTP Request / Response 
+- Loaders & Actions
+- Most control over HTTP Request / Response 
 ### [SvelteKit](https://kit.svelte.dev/)
 - Svelte based 
-* Advanced routing
-* Code splitting & Other features
+- Advanced routing
+- Code splitting & Other features
 
 ## Static site generators
