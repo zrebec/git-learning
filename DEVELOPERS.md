@@ -173,22 +173,22 @@ Most used for SPA (Single Page Apps)
 
 Reusable design elements / components
 
-- [React](https://reactjs.org/)
+- [React](https://reactjs.org/)  
   [Material UI](https://mui.com/),
   [Onsen UI](https://onsen.io/),
   [Chakra UI](https://chakra-ui.com/),
   [React Bootstrap](https://react-bootstrap.github.io/)
-- [Vue](https://vuejs.org/)
+- [Vue](https://vuejs.org/)  
   [Vuetify](https://vuetifyjs.com/),
   [Buefy](https://buefy.org/) (for [Bulma](https://bulma.io/)),
   [Vue Material](https://www.creative-tim.com/vuematerial/),
   [Bootstrap Vue](https://bootstrap-vue.org/)
-- [Angular](https://angular.io/)
+- [Angular](https://angular.io/)  
   [Angular Material](https://material.angular.io/),
   [Ng-Zorro](https://ng.ant.design/) (for [Ant Design](https://ant.design/)),
   [Ng-Bootstrap](https://ng-bootstrap.github.io/),
   [MD Bootstrap](https://mdbootstrap.com/)
-- [Svelte](https://svelte.dev/)
+- [Svelte](https://svelte.dev/)  
   [Svelte Material UI](https://sveltematerialui.com/),
   [Materialify](https://svelte-materialify.vercel.app/),
   [Smelte](https://smeltejs.com/),
