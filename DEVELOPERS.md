@@ -74,7 +74,7 @@ Teach Markdown as one of the first things.
 
 ### Remote repositories
 
-GitHub, GitLab and Bitbucket
+[GitHub](http://github.com/), [GitLab](https://gitlab.com/) and [Bitbucket](https://bitbucket.org/)
 
 ## Hosting
 
