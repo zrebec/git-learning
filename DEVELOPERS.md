@@ -64,17 +64,13 @@ Emmet, Live Server, Prettier, ESLint, GitHub Copilot, etc...
 
 Teach Markdown as one of the first things.
 
-### init
-
-### add
-
-### commit
-
-### push
-
-### pull
-
-### branch
+'git init' Initalize local repository (this must be a first step)  
+'git add .' Add all files into staged area  
+'git commit -m "Fist initialize" -m "Created index.html and make first commit in this file"' commit changes into local repository with comment _First initalize_ and _Created index.html and make first commit in this file_ as description.  
+'git push origin master' upload changes into remote master branch  
+'git pull origin master' Download (fetch) all remote changes from master branch
+'git branch' list all branches  
+'git checkout -b developer' Create a branch called _developer_ and switch into it
 
 ### Remote repositories
 
