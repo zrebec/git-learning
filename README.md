@@ -1,3 +1,5 @@
+# Git Tutorial
+
 # Priručka git
 
 ## Inštalácia
@@ -55,12 +57,17 @@ git config --global user.email "email používaný pre git"
 |                      |                       | git push _branch_ ---> |                   |
 
 ### Working directory
+Pracovný adresár na lokálnom počítači. Súbory sú ukladané a spravované lokálnym súborovým systémom a git má akurát evidenciu, že ich má verziovať.
 
 ### Staging area
+Priestor medzi Working directory a Local repository. Vzniká pri zadaní `git add`. Teray už Git vie, že tieto súbory má commitnúť do lokálneho repozitára. Je to preto, že nie všetky súbory s ktorými pracujeme vo Working directory chceme zakaždým aj commitnúť, napriek tomu, že súbory nie sú v .gitgnore (napr. ak ste robili viacero funkcionalít vo viacerých súboroch, ktorých ale chcete oddelit do samostatných commitov
+
 
 ### Local repository
+Lokálny repozitár. Ide o Git repozitár na lokálnom počítači. Všetky súbory a ich zmeny sú evidované spravidla v adresári `.git`.
 
 ### Remote repository
+Vzdialený repozitár. Môže to byť repozitár vo firme alebo na verejne známych vzdialených repozitároch ako napr. [GitHub](https://github.com), [GitLab](https://about.gitlab.com/) či [BitBucket](https://bitbucket.org/)
 
 ## Inicializácia projektu
 
@@ -151,7 +158,7 @@ git log --graph --decorate --abbrev-commit --all
 
 Výstup by mohol vyzerať nasledovne
 
-![Obrázok príkladu výstupu s vetvením programu](/images/git-log-prettier.png 'Obrázok príkladu výstupu s vetvením programu')
+![Obrázok príkladu výstupu s vetvením programu](https://raw.githubusercontent.com/zrebec/git-learning/main/images/git-log-prettier.png 'Obrázok príkladu výstupu s vetvením programu')
 
 V prípade, že chceme vypísať commity na jeden riadok, môžeme si výstup naformátovať pomocou
 
@@ -159,7 +166,7 @@ V prípade, že chceme vypísať commity na jeden riadok, môžeme si výstup na
 git log --pretty=oneline
 ```
 
-![Obrázok príkladu s výstupom commitov na jeden riadok](/images/git-log-oneline.png 'Obrázok príkladu s výstupom commitov na jeden riadok')
+![Obrázok príkladu s výstupom commitov na jeden riadok](https://raw.githubusercontent.com/zrebec/git-learning/main/images/git-log-oneline.png 'Obrázok príkladu s výstupom commitov na jeden riadok')
 
 Zmeny oproti lokálnej verzii v porovnaní s git môžeme vypísať pomocou  
 _Červená (znak "-") značí riadok ktorý zmizol v lokálnej verzii a zelená (znak "+") znamená pridanie._
@@ -216,4 +223,20 @@ git push -u origin main
 git remote add origin git@github.com:zrebec/git-learning.git
 git branch -M main
 git push -u origin main
+```
+
+```markmap
+
+# Git
+### git init
+#### Push
+##### git add .
+##### git commit -m "Initial commit"
+##### git push origin main
+
+#### Pull
+##### git pull origin main
+##### git checkout -
+
+
 ```
